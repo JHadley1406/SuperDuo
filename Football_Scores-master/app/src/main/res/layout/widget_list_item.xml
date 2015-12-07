@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/widget_row"
+    android:background="@color/green02">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/widget_team_name"
+            android:text="@string/test_text"
+            android:id="@+id/widget_home_name"
+            android:textColor="@color/black"
+            android:maxEms="10"
+            android:singleLine="false"
+            android:contentDescription="@string/home_name_desc"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/test_text"
+            android:textSize="@dimen/widget_score"
+            android:id="@+id/widget_score"
+            android:textColor="@color/black"
+            android:contentDescription="@string/match_score_desc"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/test_text"
+            android:textSize="@dimen/widget_team_name"
+            android:id="@+id/widget_away_name"
+            android:textColor="@color/black"
+            android:maxEms="10"
+            android:singleLine="false"
+            android:contentDescription="@string/away_name_desc"/>
+    </LinearLayout>
+
+</LinearLayout>
